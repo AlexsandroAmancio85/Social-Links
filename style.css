@@ -6,6 +6,7 @@
 
 html {
     height: 100vh;
+    font-size: 14px;
 }
 
 body{
@@ -27,4 +28,24 @@ body{
     color: white;
     height: 100%;
 
+}
+
+.gradient {
+    background: linear-gradient(to right, #5579BA, #41A377);
+}
+
+.profile-picture {
+    width: 120px;
+    border-radius: 50%;
+}
+
+.username {
+    font-weight: 400;
+    font-size: 2em;
+    margin: 16px 0;
+}
+
+.description {
+    font-size: 1em;
+    color: #919193;
 }
